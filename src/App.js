@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/form.css'
+import './css/timeline.css'
 import Header from './compnents/Header';
 import SignIn from './compnents/SignIn';
 import SignUp from './compnents/SignUp';
@@ -16,7 +17,7 @@ class App extends Component {
     return (
       <main>
         <Header/>
-        <img src={logo} className="App-logo" alt="logo" />
+        
         <SignIn/>
         <SignUp/>
         <PasswordRecovery/>
