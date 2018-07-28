@@ -4,16 +4,19 @@ class PasswordRecovery extends Component{
   render(){
     return (
       <section>
-          <form class="form">
+          <form className="form">
             <h2>Recuperar clave</h2>
-            <div class="form-group">
+            <div className="form-group">
+            <div class="input-group">
+            <span class="input-group-addon">@</span>
             <input
-            class="form-control"
+            className="form-control"
               type="email"
               name="email"
               placeholder="email" />
               </div>
-            <button class="btn btn-success">Enviar</button>
+              </div>
+            <button className="btn btn-success">Enviar</button>
           </form>
 
       </section>

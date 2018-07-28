@@ -1,0 +1,27 @@
+
+@mixin  reset {
+  margin: 0;
+  padding: 0
+}
+$main-font-color:#555;
+
+body{
+  padding-top: 80px;
+  color: $main-font-color;
+}
+h1{
+  text-align: center;
+  img{
+    width: 120px;
+    
+  }
+}
+p{
+  @include reset;
+ 
+}
+
+@import 'Components/form';
+@import 'Components/timeline';
+@import 'Components/footer'
+

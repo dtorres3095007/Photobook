@@ -1,0 +1,30 @@
+footer{
+  background-color: #007bff;
+  padding: 30px;
+  text-align: justify;
+  .social {
+    li{
+      color: #fff;
+    display: inline;
+    list-style-type: none;
+    padding-right: 15px;
+    a{
+      color: #fff;
+      font-size: 32px;
+      transition:  all 1s ease;
+    }
+    a:hover{
+      text-decoration: none;
+      color: #fff;
+      opacity: 0.5;
+     
+      cursor: pointer;
+    }
+    }
+  }
+  h2{
+    color:#fff;
+
+  }
+
+}

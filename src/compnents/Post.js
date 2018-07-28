@@ -15,9 +15,9 @@ class Post extends Component{
           </section>
           <section>
             <form>
-              <div class="form-group">
+              <div className="form-group">
               <input
-                class="form-control" 
+                className="form-control" 
                 type="text"
                 name="comment"
                 placeholder="Comentario"/>
