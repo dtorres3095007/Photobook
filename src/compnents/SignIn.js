@@ -4,17 +4,23 @@ class SignIn extends Component{
   render(){
     return (
       <section>
-        <form>
+        <form >
           <h2>Ingreso</h2>
+          <div class="form-group">
           <input 
+          class = "form-control"
             type="email" 
             name="email" 
             placeholder="Email" />
+            </div>
+          <div class="form-group">
           <input 
+          class = "form-control"
             type="password" 
             name="password" 
             placeholder="password" />
-          <button>Enviar</button>
+            </div>
+          <button class="btn btn-success">Enviar</button>
           <p>
             <a href="#">Registro</a> 
             |
