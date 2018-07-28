@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './css/form.css'
 import Header from './compnents/Header';
 import SignIn from './compnents/SignIn';
 import SignUp from './compnents/SignUp';

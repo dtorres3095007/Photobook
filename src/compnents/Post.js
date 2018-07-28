@@ -15,10 +15,13 @@ class Post extends Component{
           </section>
           <section>
             <form>
-              <input 
+              <div class="form-group">
+              <input
+                class="form-control" 
                 type="text"
                 name="comment"
                 placeholder="Comentario"/>
+                </div>
               <button>Enviar</button>
             </form>
           </section>

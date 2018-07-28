@@ -4,54 +4,66 @@ class SignUp extends Component{
   render(){
     return (
       <section>
-        <form>
+        <form class="form"> 
           <h2>Registro</h2>
-          <label 
-            for="name">Nombre</label>
-          <input 
+         
+          <div class="form-group">
+          <input
+            placeholder="Nombre"
+            class = "form-control" 
             type="text"
             name="name"
             id="name"
           />
-          <label 
-            for="lastname">Apellido</label>
-          <input 
+          </div>
+          <div class="form-group">
+               <input
+            placeholder="Apellido"
+            class = "form-control" 
             type="text"
             name="lastname"
             id="lastname"
           />
-          <label 
-            for="email">Correo</label>
-          <input 
+          </div>
+          <div class="form-group">
+          <input
+            placeholder="Correo"
+            class = "form-control" 
             type="email"
             name="email"
             id="email"
           />
-          <label 
-            for="password">Clave</label>
-          <input 
+          </div>
+          <div class="form-group">
+            <input
+            placeholder="Clave"
+            class = "form-control" 
             type="password"
             name="password"
             id="password"
           />
-          <label 
-            for="confirmPassword">Confirmar clave
-          </label>
-          <input 
+          </div>
+          <div class="form-group">
+    
+          <input
+            placeholder="Confirmar clave"
+            class = "form-control" 
             type="password"
             name="confirmPassword"
             id="confirmPassword"
           />
-          
+          </div>
+          <div class="form-group">
           <label>
-            <input 
+            <input
               type="checkbox"
               name="terms"
             />
             Acepto términos y condiciones
           </label>
-          
-          <button>Enviar</button>
+          </div>
+      
+          <button class="btn btn-success">Enviar</button>
 
         </form>
       </section>

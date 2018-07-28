@@ -1,10 +1,11 @@
 import React,{Component} from 'react'
 
+
 class SignIn extends Component{
   render(){
     return (
       <section>
-        <form >
+        <form class="form">
           <h2>Ingreso</h2>
           <div class="form-group">
           <input 
@@ -20,11 +21,10 @@ class SignIn extends Component{
             name="password" 
             placeholder="password" />
             </div>
-          <button class="btn btn-success">Enviar</button>
-          <p>
-            <a href="#">Registro</a> 
-            |
-            <a href="#">Olvido de clave</a>
+          <button class="btn btn-success btn-block">Log In</button>
+          <p class="row text-center">
+            <span class="col"><a href="#">Registro</a> </span>
+            <span class="col"><a href="#">¿ Olvido de clave ?</a></span>
           </p>
      </form>
       </section>

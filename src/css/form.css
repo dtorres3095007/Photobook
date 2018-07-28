@@ -1,0 +1,22 @@
+.form{
+  border: 1px solid #999;
+  border-radius: 10px;
+  box-sizing: content-box;
+  padding: 80px 50px;
+  width: 300px;
+  margin:  0 auto;
+}
+.form h2{
+font-size: 16px;
+font-weight: bold;
+text-align: center;
+
+}
+.form .row .col{
+padding: 0;
+  
+}
+.form a{
+color: black;
+  
+  }
